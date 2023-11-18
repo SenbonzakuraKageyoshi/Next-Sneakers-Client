@@ -1,0 +1,12 @@
+.sectionTitle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+@media(max-width: 650px){
+    .sectionTitle{
+        font-size: 25px;
+        line-height: 38px;
+    }  
+}

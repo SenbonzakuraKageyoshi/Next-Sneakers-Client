@@ -1,0 +1,23 @@
+.headerNavItem{
+    display: flex;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--dark-gray);
+    transition: color 0.4s;
+
+    @media(hover: hover){
+        &:hover{
+            color: var(--green-hover)
+        }
+    }
+
+    @media(hover: none){
+        &:active{
+            color: var(--green-hover)
+        }
+    }
+
+    img{
+        margin-right: 10px;
+    }
+}

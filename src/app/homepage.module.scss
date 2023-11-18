@@ -1,0 +1,25 @@
+.catalogTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalogList{
+    margin-top: -20px;
+    margin-left: -40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 979px){
+    .catalogList{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 650px){
+    .catalogTop{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

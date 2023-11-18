@@ -1,0 +1,11 @@
+.navMenuButton{
+    display: none;
+    width: 30px;
+    height: 25px;
+}
+
+@media(max-width: 650px){
+    .navMenuButton{
+        display: block;
+    }
+}
